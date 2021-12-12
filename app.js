@@ -39,7 +39,7 @@ app.post("/", (req, res) => {
    
    const options = {
        method: "POST",
-       auth: "Tomras:15b844949790f5998165a6c7093eadf8-us20"
+       auth: "Tomras:1850e0c8804437fbc4dd73d090f67f95-us20"
    }
    const request = https.request(url, options, function(response) {
 
@@ -67,7 +67,7 @@ app.listen(process.env.PORT || 5000, function() {
 })
 
 //API KEY
-// 15b844949790f5998165a6c7093eadf8-us20
+// 1850e0c8804437fbc4dd73d090f67f95-us20
 
 //Audience List Id
 //6dd5e581fd
